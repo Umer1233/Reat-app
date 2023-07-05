@@ -43,7 +43,7 @@ const LogIn = () => {
         />
       </div>
       <div className="form-group">
-        <button className="btn btn-primay" onClick={handleSumbited}>
+        <button className="btn btn-primary" onClick={handleSumbited}>
           Sumbit
         </button>
       </div>
