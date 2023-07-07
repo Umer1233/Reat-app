@@ -1,0 +1,66 @@
+React.
+npm init --> pakage.json
+npm install redux
+npm install -g nodemon = for auto recompile
+	a) if you found eror on run the set execution policy
+
+1.Webpack
+2.Split react application into modules
+3.Layz Loading Module
+4.Middleware
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+CLI 
+a) New app = npx create-react-app my-react-app
+b) React app use webpack bydefault if you dont want to use it you can create webpack.config.js file and use it
+c) when we use function component we used const keyword careate a function
+d) when we use class component when used don't requred const keyword.
+
+React Redux
+a) Setp 1 : create a type function
+b) Create Store
+c) Create Reducer
+d) subscribe un subscribe
+
+
+What is in session in .net
+
+a) This keyword is used in class component
+b) using on arrow function in function component you must used const key word on function which is you want to return 
+
+
+
+Control Component.
+Two types of component
+State less function component 
+	a) Return html in javascript function
+State full class component
+	a) extend component class must return render method
+
+function Component:
+1.A javascript function that take input as properties (props) and return HTML(JSX). we can not use this
+
+class component
+a.) ES6 class extend by component 
+
+-->
+Topic Name Exports
+1.Export Default -> it can import any of name,like aliyas
+2.Export Constant-> it can import same name you can not change name as aliyas 
+3.When you export const function with out using default you always export with wrap of{}
+-->
+
+JXS
+
+Hooks 
+Relase on 16.7.0 Alpha
+
+State : State using in 
+
+Memory Router
+Browser Router
+Hash Router
+Defne Router in Seprate.Js

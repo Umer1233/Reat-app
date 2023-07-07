@@ -1,0 +1,44 @@
+*****Publish on github pages******
+
+
+https://www.youtube.com/watch?v=Fi75tq9JikI&ab_channel=CodeWithHarry
+*********install git*********
+1.npm install gh-pages --save-dev
+1.npm run diploy
+*********pakage.json*********
+
+homepage: "http://Umer1233.github.io/react-app1"
+scripts : tag { "predeploy": "npm run build", "deploy": "gh-pages -d build", "build": "react-scripts build" }
+
+*********Terminal*********
+git init --> to intialize git
+git rev-parse --> Is-inside-work-tree --> check you are in root dir in Git or not.
+git add . 	  --> you shoul have in root dir of git 
+git status	  --> Show to uncomit or new files to be comit
+git commit -m "comit description"
+git branch -M "main"
+git remote add origin "https://github.com/Umer1233/react-app1.git"
+git push -u origin 'main'
+
+*******Commit Again**********
+git add .
+git status
+git commit -m "message"  --Prepare for commit on stage
+git push origin main	--Push it on git
+npm run deploy	--Publish on GitHub
+
+.Net AutoMapper
+
+Turing
+1.Familiar with the concept of test-driven development and testing tools (Jest, Nock, Postman).
+2.3+ years of experience with TypeScript
+3.Strong image rendering skills such as Canvas, SVG, etc
+4.React Query
+5.DDD Domain Driven Design Pattren (API, Dmain , Infrastructe)
+API    		 			 --> DTos (Request, Response, Model ), Repository
+Domain 	Center of App)	 --> Business Logic , Entities or Models ,  IAggregate
+Infrastructe 			 -->
+
+
+
+ChatGPT APIs
